@@ -9,9 +9,11 @@ import { CoursesService } from './courses/courses.service';
 import { AuthorsComponent } from './authors/authors.component';
 import { AuthorsService } from './authors/authors.service';
 
+import { LikeComponent } from './like/like.component';
+
 @NgModule({
   declarations: [
-    AppComponent, CoursesComponent, AuthorsComponent
+    AppComponent, CoursesComponent, AuthorsComponent, LikeComponent
   ],
   imports: [
     BrowserModule
