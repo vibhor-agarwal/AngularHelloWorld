@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 
 @Component({
-    selector: 'like',
-    templateUrl: './like.component.html',
-    styleUrls: ['./like.component.css']
+    selector: 'favorite',
+    templateUrl: './favorite.component.html',
+    styleUrls: ['./favorite.component.css']
 })
-export class LikeComponent {
+export class FavoriteComponent {
     private isSelected: boolean;
     get IsSelected() {
         return this.isSelected;
