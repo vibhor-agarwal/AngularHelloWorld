@@ -1,0 +1,6 @@
+<div>
+    <h2 class="header"> {{data.length}} Authors </h2>
+    <ul class="content">
+        <li class="item" *ngFor="let item of data">{{item.name | mytitlecase}}</li>
+    </ul>
+</div>
