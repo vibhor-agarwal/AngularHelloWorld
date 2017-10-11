@@ -1,1 +1,5 @@
-<span class="glyphicon" [class.glyphicon-star-empty]="!isSelected" [class.glyphicon-star]="isSelected" (click)="onClick($event)"></span>
+<div>
+    <span class="glyphicon" [class.glyphicon-star-empty]="!isSelected" [class.glyphicon-star]="isSelected" (click)="onClick($event)">
+    </span>
+    <span class="count">{{likeCount}}</span>
+</div>
